@@ -15,6 +15,8 @@ export default function Upload() {
       body: formData,
     });
 
+    console.log(upload)
+
     if (upload.ok) {
       console.log('Uploaded successfully!');
     } else {
